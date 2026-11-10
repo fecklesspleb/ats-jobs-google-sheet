@@ -279,7 +279,7 @@ test('successful run appends only real jobs and records the request shape', () =
   w.runDaily();
   assert.equal(w.fetches.length, 1);
   const call = w.fetches[0];
-  assert.match(call.url, /\/acts\/fecklesspleb~ats-jobs-scraper\/run-sync-get-dataset-items\?/);
+  assert.match(call.url, /\/actors\/fecklesspleb~ats-jobs-scraper\/run-sync-get-dataset-items\?/);
   assert.match(call.url, /maxTotalChargeUsd=0\.1\b/);
   assert.match(call.url, /timeout=280/);
   assert.match(call.url, /clean=true/);
