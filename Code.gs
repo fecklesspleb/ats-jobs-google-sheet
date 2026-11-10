@@ -16,7 +16,7 @@
  */
 
 var ACTOR_ID = 'fecklesspleb~ats-jobs-scraper';
-var ACTOR_SYNC_URL = 'https://api.apify.com/v2/acts/' + ACTOR_ID + '/run-sync-get-dataset-items';
+var ACTOR_SYNC_URL = 'https://api.apify.com/v2/actors/' + ACTOR_ID + '/run-sync-get-dataset-items';
 var MAX_TOTAL_CHARGE_USD = 0.10;
 var MAX_TOTAL_JOBS = 50; // Actor price is $0.002 per job; 50 jobs = $0.10
 var STATE_STORE_NAME = 'ats-jobs-google-sheet';
